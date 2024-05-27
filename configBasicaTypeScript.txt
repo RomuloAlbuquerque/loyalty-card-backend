@@ -1,0 +1,13 @@
+instalar typescript
+
+criar arquivo tsconfig
+
+No tsconfig:
+"rootDir": "./src"
+"outDir": "./dist"
+
+No package.json criar o script:
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules index.ts"
+  },

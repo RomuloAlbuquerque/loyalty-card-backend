@@ -1,0 +1,1 @@
+export const relAdminInputDTO = (id_user: string, id_business: string) => ({id_user:id_user, id_business:id_business})

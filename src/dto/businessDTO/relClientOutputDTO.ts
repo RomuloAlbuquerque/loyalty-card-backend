@@ -1,0 +1,1 @@
+export const relClientOutputDTO=(id_admin:string,id_user:string,id_business:string)=>({id_admin:id_admin,id_user:id_user,id_business:id_business})
