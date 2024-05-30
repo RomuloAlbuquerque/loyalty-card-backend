@@ -2,8 +2,6 @@ import express from "express";
 import { Request, Response } from "express";
 import cors from "cors";
 import userRouter from "../2-router/userRouter";
-import testUser from "../test/testUser/testUser";
-import testBusiness from "../test/testBusiness/testBusiness";
 import businessRouter from "../2-router/businessRouter";
 
 const app = express();
